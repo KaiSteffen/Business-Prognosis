@@ -8,10 +8,6 @@
 
 <br/>
 
-<img src="images/prophet_team.png" alt="Prophet – Business Forecasting Team" width="300" />
-
-<br/>
-
 ![Hochschule Aalen](https://img.shields.io/badge/Hochschule%20Aalen-SS%202026-8A2BE2)
 ![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)
 ![Prophet](https://img.shields.io/badge/Forecasting-Prophet-4B0082)
@@ -121,6 +117,10 @@ Im Ordner `literature/` liegen die zugrundeliegenden Paper, u. a.:
 <div align="center">
 
 ## 👥 Team
+
+<img src="images/prophet_team.png" alt="Prophet – Business Forecasting Team" width="300" />
+
+<br/>
 
 **Bettina & Kai** — Hochschule Aalen · SS 2026
 
