@@ -34,7 +34,9 @@ gezielt mit Domänenwissen verbessern.
 ## 📈 Prophet-Tutorial: „Analyst-in-the-Loop"
 
 Am Beispiel der **Rossmann-Filiale 1097 (Kölner Hauptbahnhof)** wird Schritt für Schritt
-vom einfachen Baseline-Modell zu einer optimierten Vorhersage gearbeitet:
+vom einfachen Baseline-Modell zu einer optimierten Vorhersage gearbeitet.
+Das vollständige Demo-Notebook ist
+[`1_prophet_demo_final.ipynb`](notebooks/1_prophet_demo_final.ipynb):
 
 | Schritt | Modell | Erweiterung |
 |:---:|:---|:---|
@@ -51,7 +53,7 @@ vom einfachen Baseline-Modell zu einer optimierten Vorhersage gearbeitet:
 
 ## 🎓 Hands-On für Studierende
 
-Das Notebook [`prophet_handson_students.ipynb`](notebooks/prophet_handson_students.ipynb)
+Das Notebook [`2_prophet_handson_students.ipynb`](notebooks/2_prophet_handson_students.ipynb)
 ist ein **Crashkurs zum Selbermachen**. Anhand eines Beispiel-Datensatzes (Verkäufe der
 „SkyDrive X1 Pro" SSD) lösen die Studierenden zwei Aufgaben:
 
@@ -61,7 +63,7 @@ ist ein **Crashkurs zum Selbermachen**. Anhand eines Beispiel-Datensatzes (Verk�
 Setup, Datengenerierung und Visualisierungen sind vorgegeben (einfach ausführen), sodass
 der Fokus auf dem Modellieren liegt. Ein direkter Vergleich (naiv vs. Experte) und
 Diskussionsfragen runden die Übung ab. Die vollständige Musterlösung liegt in
-[`prophet_handson_solution.ipynb`](notebooks/prophet_handson_solution.ipynb).
+[`3_prophet_handson_solution.ipynb`](notebooks/3_prophet_handson_solution.ipynb).
 
 ---
 
@@ -69,15 +71,21 @@ Diskussionsfragen runden die Übung ab. Die vollständige Musterlösung liegt in
 
 ```
 .
-├── data/                 # Datensätze (Rossmann Store Sales, Flugdaten)
-├── notebooks/            # Jupyter-Notebooks
-│   ├── prophet_demo_final.ipynb         # vollständige Demo
-│   ├── prophet_handson_students.ipynb   # Übung für Studierende
-│   └── prophet_handson_solution.ipynb   # Musterlösung
-├── powerpoint/           # Einstiegspräsentation
-├── literature/           # Wissenschaftliche Quellen (PDFs)
-├── images/               # Key Visuals
-├── ts-tutorial.yml       # Conda-Umgebung
+├── data/
+│   ├── rossmann-store-sales/   # Rossmann-Datensatz (train, test, store, …)
+│   └── flights.csv             # Flugdaten für den Black-Swan-Stresstest
+├── notebooks/
+│   ├── 1_prophet_demo_final.ipynb         # vollständige Demo (Rossmann)
+│   ├── 2_prophet_handson_students.ipynb   # Übung für Studierende
+│   ├── 3_prophet_handson_solution.ipynb   # Musterlösung
+│   ├── cross_validation.PNG               # Abbildung zur Demo
+│   └── umsaetzeRossmannFiliale_v2.png     # Abbildung zur Demo
+├── powerpoint/
+│   └── Prophet_Einstiegspräsentation.pptx
+├── literature/                 # Wissenschaftliche Quellen (PDFs)
+├── images/                     # Key Visuals (README-Bilder)
+├── ts-tutorial.yml             # Conda-Umgebung
+├── .gitignore
 └── README.md
 ```
 
@@ -88,7 +96,7 @@ Diskussionsfragen runden die Übung ab. Die vollständige Musterlösung liegt in
 Die benötigte Umgebung lässt sich mit Conda erstellen:
 
 ```bash
-conda env create -f ts-tutorial.yml
+conda env create -f ts-tutorial.yml --no-channel-priority
 conda activate ts-tutorial
 jupyter lab
 ```
