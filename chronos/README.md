@@ -26,9 +26,6 @@ Regressoren etc. selbst ein), Chronos sagt **zero-shot** vorher – ganz **ohne 
 und ohne Feature-Engineering**. Beides wird auf **denselben Rossmann-Daten** gezeigt, um
 direkt vergleichen zu können.
 
-> 📄 Die genaue Planung (Notebook-Gliederungen, Prophet↔Chronos-Mapping, offene
-> Entscheidungen) steht in [`KONZEPT.md`](KONZEPT.md).
-
 ---
 
 ## 📈 Demo: dieselben Daten wie Prophet
@@ -66,20 +63,18 @@ Musterlösung in
 ## 🗂️ Projektstruktur
 
 ```
-chronos/
+.
 ├── data/
 │   ├── rossmann-store-sales/   # Rossmann-Datensatz (identisch zum Prophet-Teil)
 │   └── flights.csv             # Flugdaten für den Black-Swan-Stresstest
 ├── notebooks/
-│   ├── 1_chronos_demo.ipynb            # Demo (Rossmann)
-│   ├── 2_chronos_handson_students.ipynb # Übung
+│   ├── 1_chronos_demo.ipynb             # Demo (Rossmann)
+│   ├── 2_chronos_handson_students.ipynb # Übung für Studierende
 │   └── 3_chronos_handson_solution.ipynb # Musterlösung
-├── presentation/               # Chronos-Einstiegspräsentation (folgt)
-├── literature/                 # Chronos-Paper (folgt)
-├── images/                     # Key Visuals (folgt)
-├── ts-tutorial.yml             # Conda-Umgebung (gemeinsam mit Prophet, + Chronos)
-├── KONZEPT.md                  # Planung & Vorschlag
-├── .gitignore
+├── presentation/
+│   └── Chronos_Praesentation.pptx       # Einstiegspräsentation
+├── literature/                          # Chronos-Paper (PDFs folgen)
+├── ts-tutorial.yml                      # Conda-Umgebung (+ Chronos)
 └── README.md
 ```
 
@@ -116,7 +111,16 @@ NumPy · Matplotlib · JupyterLab
 
 ---
 
+## 📊 Daten
+
+- **Rossmann Store Sales** – tägliche Umsätze einzelner Filialen (Kaggle-Datensatz)
+- **Flugdaten** – ergänzender Datensatz für den Strukturbruch-/Black-Swan-Stresstest
+
+---
+
 ## 📚 Literatur
+
+Im Ordner `literature/` liegen die zugrundeliegenden Paper (PDFs folgen):
 
 - **Ansari, A. F. et al. (2024). *Chronos: Learning the Language of Time Series.*** TMLR.
   [arXiv:2403.07815](https://arxiv.org/abs/2403.07815)
