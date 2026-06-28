@@ -4,6 +4,10 @@
 
 ### Zeitreihen-Prognose mit Chronos (Foundation Model)
 
+<img src="images/Chronos.png" alt="Chronos – Time Series Forecasting" width="420" />
+
+<br/>
+
 ![Hochschule Aalen](https://img.shields.io/badge/Hochschule%20Aalen-SS%202026-8A2BE2)
 ![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)
 ![Chronos](https://img.shields.io/badge/Forecasting-Chronos-FF9900)
@@ -70,10 +74,12 @@ Musterlösung in
 ├── notebooks/
 │   ├── 1_chronos_demo.ipynb             # Demo (Rossmann)
 │   ├── 2_chronos_handson_students.ipynb # Übung für Studierende
-│   └── 3_chronos_handson_solution.ipynb # Musterlösung
+│   ├── 3_chronos_handson_solution.ipynb # Musterlösung
+│   └── chronosTest.ipynb                # Experimente & Tests
 ├── presentation/
 │   └── Chronos_Praesentation.pptx       # Einstiegspräsentation
-├── literature/                          # Chronos-Paper (PDFs folgen)
+├── literature/                          # Chronos-Paper (PDFs)
+├── images/                              # Key Visuals (README, Präsentation)
 ├── ts-tutorial.yml                      # Conda-Umgebung (+ Chronos)
 └── README.md
 ```
@@ -120,7 +126,7 @@ NumPy · Matplotlib · JupyterLab
 
 ## 📚 Literatur
 
-Im Ordner `literature/` liegen die zugrundeliegenden Paper (PDFs folgen):
+Im Ordner `literature/` liegen die zugrundeliegenden Paper:
 
 - **Ansari, A. F. et al. (2024). *Chronos: Learning the Language of Time Series.*** TMLR.
   [arXiv:2403.07815](https://arxiv.org/abs/2403.07815)
