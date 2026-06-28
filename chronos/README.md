@@ -74,7 +74,7 @@ chronos/
 │   ├── 1_chronos_demo.ipynb            # Demo (Rossmann)
 │   ├── 2_chronos_handson_students.ipynb # Übung
 │   └── 3_chronos_handson_solution.ipynb # Musterlösung
-├── powerpoint/                 # Chronos-Einstiegspräsentation (folgt)
+├── presentation/               # Chronos-Einstiegspräsentation (folgt)
 ├── literature/                 # Chronos-Paper (folgt)
 ├── images/                     # Key Visuals (folgt)
 ├── ts-tutorial.yml             # Conda-Umgebung (gemeinsam mit Prophet, + Chronos)
