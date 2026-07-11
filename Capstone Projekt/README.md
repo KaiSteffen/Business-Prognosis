@@ -2,7 +2,7 @@
 
 # Capstone Projekt
 
-### Business-Prognose – Hochschule Aalen, SS 2026
+### Business-Prognosis – Hochschule Aalen, SS 2026
 
 ![Hochschule Aalen](https://img.shields.io/badge/Hochschule%20Aalen-SS%202026-8A2BE2)
 
@@ -10,7 +10,7 @@
 
 ---
 
-Dieser Ordner enthält das **Capstone-Projekt** zum Kurs Business-Prognose.
+Dieser Ordner enthält das **Capstone-Projekt** zum Kurs Business-Prognosis.
 
 ## Umgebung einrichten (`ts-tutorial.yml`)
 
