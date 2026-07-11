@@ -12,7 +12,7 @@
 
 ---
 
-Dieses Repository enthält zwei verwandte Studienprojekte zur **Business-Prognose** auf
+Dieses Repository enthält zwei verwandte Studienprojekte zur **Business-Prognosis** auf
 denselben Rossmann-Daten – einmal klassisch mit **Prophet**, einmal mit dem Foundation
 Model **Chronos**.
 
